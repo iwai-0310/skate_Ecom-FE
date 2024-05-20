@@ -13,7 +13,7 @@ const Home = () => {
         <div className="w-4/6 h-1/2">
         {/* child element containing card data starts here */}
         <div className="w-full h-full mx-auto border-2 border-white rounded-3xl  bg-white/10 relative top-32 backdrop-blur-lg backdrop-filter shadow-lg z-10 ">
-        <div className="absolute  -top-0 -right-16  hidden sm:block ">
+        <div className="absolute  -top-0 -right-16  hidden sm:block chandresh">
             <img src={skateBoard} alt="Home Banner skate boards image" className="object-cover object-center h-96 scale-150" />
           </div>
         </div>
