@@ -10,7 +10,7 @@ function App() {
   return (
     // <div className='w-screen  h-screen'>
     // <Home/>
-    <div className='h-screen w-screen'>
+    <div className='h-screen w-screen  scrollbar-hide overflow-x-hidden'>
       <Outlet/>
     </div>
     // </div>
