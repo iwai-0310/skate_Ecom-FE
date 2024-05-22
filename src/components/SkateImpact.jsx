@@ -13,6 +13,13 @@ const SkateImpact = () => {
           </p>
         </div>pink-500
       </div>
+
+
+
+
+
+
+
     </div>
       
       

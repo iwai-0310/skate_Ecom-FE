@@ -3,6 +3,7 @@ import neonCross from "../../assets/neonCross.png";
 import neonOrigin from "../../assets/neonOrigin.png";
 import skateBoard from "../../assets/skateImage.png";
 import SkateImpact from "../SkateImpact";
+import NeonCard from "../NeonCard";
 
 const Home = () => {
   return (
@@ -42,6 +43,9 @@ const Home = () => {
         {/* child element containing card data ends here */}
       </div>
       {/* parent div ends here */}
+
+      <NeonCard/>
+
       <SkateImpact/>
     </div>
   );
