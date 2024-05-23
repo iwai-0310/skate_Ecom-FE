@@ -6,3 +6,28 @@
     padding: 0;
 }
 
+header {
+    background-color: black; 
+}
+.navbar {
+  display: flex;
+  
+}
+
+.skateboard_home {
+  height: 100px;
+  margin-left: 10%;
+}
+
+.nav-menu {
+  display: flex;
+  min-width: 500px;
+  justify-content: center;
+  gap: 70px;
+
+}
+
+.nav-menu li{
+    color: white;
+}
+
