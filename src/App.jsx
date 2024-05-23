@@ -12,7 +12,6 @@ function App() {
     // <div className='w-screen  h-screen'>
     // <Home/>
     <div className='h-screen w-screen'>
-      <Header/>
       <Outlet/>
     </div>
     // </div>
