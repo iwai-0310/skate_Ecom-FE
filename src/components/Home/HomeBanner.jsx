@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react'
 import neonCross from "../../assets/neonCross.png";
 import neonOrigin from "../../assets/neonOrigin.png";
 import skateBoard from "../../assets/skateImage.png";
 
-const Home = () => {
+const HomeBanner = () => {
   return (
     //parent div starts here
-    <div className="h-full w-full">
+    <div className="h-screen w-screen bg-black">
       {/* sub-parent containing the black box */}
-      <div className="w-full h-full bg-black flex items-center flex-col">
+      <div className=" bg-black flex items-center  justify-center"    >
         {/* using another parent div to fix the position acc to the rectange div */}
         <div className="w-4/6 h-1/2">
         {/* child element containing card data starts here */}
@@ -42,7 +42,7 @@ const Home = () => {
       </div>
       {/* parent div ends here */}
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default HomeBanner
