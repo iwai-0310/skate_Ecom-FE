@@ -6,9 +6,9 @@ import skateBoard from "../../assets/skateImage.png";
 const HomeBanner = () => {
   return (
     //parent div starts here
-    <div className="h-screen w-screen bg-black">
+    <div className="h-full w-full">
       {/* sub-parent containing the black box */}
-      <div className=" bg-black flex items-center  justify-center"    >
+      <div className=" w-full h-full bg-black flex items-center flex-col"    >
         {/* using another parent div to fix the position acc to the rectange div */}
         <div className="w-4/6 h-1/2">
         {/* child element containing card data starts here */}
