@@ -5,13 +5,15 @@ import skateBoard from "../../assets/skateImage.png";
 import HomeBanner from "./HomeBanner";
 import NeonCard from "../NeonCard";
 import HomeBlogCard from "../Cards/HomeBlogCard";
+import SwiperCard from "../Cards/SwiperCard";
 
 const Home = () => {
   return (
     
     <>
       {/* <HomeBanner/> */}
-      <HomeBlogCard/>
+      {/* <HomeBlogCard/> */}
+      <SwiperCard/>
     </>
   );
 };
