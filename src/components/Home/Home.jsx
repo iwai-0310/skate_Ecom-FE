@@ -11,6 +11,7 @@ const Home = () => {
   return (
     
     <>
+    <NeonCard/>
       {/* <HomeBanner/> */}
       {/* <HomeBlogCard/> */}
       <SwiperCard/>
