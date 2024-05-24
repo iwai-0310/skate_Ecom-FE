@@ -13,6 +13,7 @@ function App() {
     // <Home/>
     <div className='h-screen w-screen'>
       <Outlet/>
+      <GradientBorderCard/>
     </div>
     // </div>
   )
