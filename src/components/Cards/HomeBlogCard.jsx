@@ -27,8 +27,7 @@ const HomeBlogCard = ({direction}) => {
           color="white"
           className="font-normal opacity-75 text-center"
         >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit sunt beatae soluta ipsam repudiandae dolores error, tempore numquam asperiores? Libero magnam odit, ipsum modi dolor hic culpa illo mollitia laudantium.
-        </Typography></div>
+Skateboarding is more than just a sport; it's a vibrant subculture and a form of self-expression. Originating in the 1950s as a pastime for surfers when the waves were flat, it quickly evolved into a global phenomenon        </Typography></div>
       </CardBody>
       </Card>
     </div>
