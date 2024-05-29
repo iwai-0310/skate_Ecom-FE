@@ -10,12 +10,13 @@ import SwiperEffect from "../Cards/SwiperEffect";
 
 const Home = () => {
   return (
-    
     <>
-      {/* <SwiperCard/> */}
-      <SwiperEffect/>
+      <NeonCard />
+      {/* <HomeBanner/> */}
+      {/* <HomeBlogCard/> */}
+      <SwiperCard />
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
