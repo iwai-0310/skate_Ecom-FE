@@ -2,9 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-#root{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+header {
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+
+}
+
+.skateboard_home {
+  height: 100px;
+  margin-left: 10%;
+}
+
+.nav-menu {
+  display: flex;
+  min-width: 500px;
+  justify-content: center;
+  gap: 70px;
+
+}
+
+.nav-menu li {
+  color: white;
+}

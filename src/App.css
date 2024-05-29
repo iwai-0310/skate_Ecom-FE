@@ -1,0 +1,96 @@
+@property --gradient-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+/* now, we can animate this custom-property value */
+
+
+
+
+/* now, we will use houdini and the @property */
+/* used to register a custom property, gives more information to the browser on that custom property */
+
+/* create a rotation animation */
+@keyframes rotation {
+    0% {
+        --gradient-angle: 0deg;
+    }
+
+    100% {
+        --gradient-angle: 360deg;
+    }
+}
+
+
+
+.animate {
+    animation: animateImages 5s ease-in-out forwards;
+}
+
+@keyframes animateImages {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.first-image,
+.second-image {
+    /* Apply these styles to both images */
+    animation-iteration-count: infinite;
+    /* Make the animation loop infinitely */
+}
+
+.first-image {
+    animation-delay: 5s;
+    animation-name: slideRightToLeft;
+}
+
+.second-image {
+    animation-delay: 5s;
+    /* Maintain the 0.5s delay */
+    animation-name: slideTopToBottom;
+}
+
+@keyframes slideRightToLeft {
+    0% {
+        transform: translateX(400%);
+        -webkit-transform: translateX(400%);
+        -moz-transform: translateX(400%);
+        -ms-transform: translateX(400%);
+        -o-transform: translateX(400%);
+    }
+
+    90% {
+        transform: translateX(10);
+        /*opacity: 0;
+        */
+        /*Hideafterslidingin*/
+        -webkit-transform: translateX(10);
+        -moz-transform: translateX(10);
+        -ms-transform: translateX(10);
+        -o-transform: translateX(10);
+        -webkit-transform: translateX(10);
+    }
+}
+
+@keyframes slideTopToBottom {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    50% {
+        /* Hide halfway through the animation */
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 0;
+    }
+}
