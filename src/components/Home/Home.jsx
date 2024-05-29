@@ -11,10 +11,11 @@ import SwiperEffect from "../Cards/SwiperEffect";
 const Home = () => {
   return (
     <>
-      <NeonCard />
+      {/* <NeonCard /> */}
       {/* <HomeBanner/> */}
       {/* <HomeBlogCard/> */}
-      <SwiperCard />
+      {/* <SwiperCard /> */}
+      <SwiperEffect/>
     </>
   )
 }
