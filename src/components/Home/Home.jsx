@@ -6,15 +6,14 @@ import HomeBanner from "./HomeBanner";
 import NeonCard from "../NeonCard";
 import HomeBlogCard from "../Cards/HomeBlogCard";
 import SwiperCard from "../Cards/SwiperCard";
+import SwiperEffect from "../Cards/SwiperEffect";
 
 const Home = () => {
   return (
     
     <>
-    <NeonCard/>
-      {/* <HomeBanner/> */}
-      {/* <HomeBlogCard/> */}
-      <SwiperCard/>
+      {/* <SwiperCard/> */}
+      <SwiperEffect/>
     </>
   );
 };
