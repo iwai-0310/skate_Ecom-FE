@@ -4,7 +4,7 @@ const NeonCard = () => {
   return (
     
     <div
-        className="w-full h-full flex-end justify-center items-center text-sky-200 border-2 rounded-xl  border-purp shadow-[0_0_10px_#9400d3,0_0_10px_#9400d3,0_0_10px_#9400d3,0_0_15px_#9400d3,inset_0_0_1px_#9400d3,inset_0_0_2px_#9400d3,inset_0_0_10px_#9400d3,inset_0_0_40px_#4c00ff]"
+        className="w-1/3 h-1/2 flex-end justify-center items-center text-sky-200 border-2 rounded-xl  border-purp shadow-[0_0_10px_#9400d3,0_0_10px_#9400d3,0_0_10px_#9400d3,0_0_15px_#9400d3,inset_0_0_1px_#9400d3,inset_0_0_2px_#9400d3,inset_0_0_10px_#9400d3,inset_0_0_40px_#4c00ff]"
     >
       {/* image section starts here */}
       <div className='py-10 px-5 h-4/5'>
