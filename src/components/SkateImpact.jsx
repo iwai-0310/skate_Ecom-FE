@@ -2,16 +2,21 @@ import React from "react"
 import SkateImpactImg1 from "../assets/SkateImpactImg1.png"
 const SkateImpact = () => {
   return (
-    <div className=" flex items-center justify-center min-h-screen  bg-black p-4">
-      <div className=" flex flex-col md:flex-row items-center max-w-6xl">
-        <div className=" bg-gradient-to-t  to-purple-900 from-pink-600 w-full md:w-2/3 h-1/2 mb-8 md:mb-0 md:mr-8">
-          <div className=" text-white text-5xl mt-24 ml-12">Daly Casual</div>
-          <div className=" float-right animate-bounce ">
+    <div className=" flex items-center justify-center min-h-screen  bg-black p-1">
+      <div className=" flex flex-col md:flex-row items-center max-w-7xl ">
+        <div className=" bg-gradient-to-t  to-purple-900 from-pink-600 w-full md:w-2/3 h-96 mb-8 md:mb-0 md:mr-8">
+          {/* <div className=" text-white text-5xl mt-24 ml-12">Daly Casual</div> */}
+          
+          <div class="flex justify-center items-center h-20 w-20">
             <img
-              className="rotate-45 "
               src={SkateImpactImg1}
               alt="SkateImpactImg1"
-              srcset=""
+              class="animate first-image"
+            />
+            <img
+              src={SkateImpactImg1}
+              alt="SkateImpactImg1"
+              class="animate second-image"
             />
           </div>
         </div>
@@ -28,7 +33,7 @@ const SkateImpact = () => {
             the ride.
           </p>
         </div>
-        pink-500
+        
       </div>
     </div>
   )

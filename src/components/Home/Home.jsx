@@ -6,7 +6,7 @@ import HomeBanner from "./HomeBanner";
 import NeonCard from "../NeonCard";
 import HomeBlogCard from "../Cards/HomeBlogCard";
 import SwiperCard from "../Cards/SwiperCard";
-import SwiperEffect from "../Cards/SwiperEffect";
+import SkateImpact from "../SkateImpact";
 
 const Home = () => {
   return (
