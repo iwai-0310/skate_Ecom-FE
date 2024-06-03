@@ -7,6 +7,7 @@ import NeonCard from "../NeonCard";
 import HomeBlogCard from "../Cards/HomeBlogCard";
 import SwiperCard from "../Cards/SwiperCard";
 import SkateImpact from "../SkateImpact";
+import SwiperEffect from "../Cards/SwiperEffect";
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
       {/* <HomeBanner/> */}
       {/* <HomeBlogCard/> */}
       {/* <SwiperCard /> */}
-      {/* <SwiperEffect/> */}
+      <SwiperEffect/>
     </>
   )
 }
