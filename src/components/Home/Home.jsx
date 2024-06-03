@@ -15,7 +15,7 @@ const Home = () => {
       {/* <HomeBanner/> */}
       {/* <HomeBlogCard/> */}
       {/* <SwiperCard /> */}
-      <SwiperEffect/>
+      {/* <SwiperEffect/> */}
     </>
   )
 }
