@@ -14,8 +14,9 @@ const Home = () => {
       {/* <NeonCard /> */}
       {/* <HomeBanner/> */}
       {/* <HomeBlogCard/> */}
-      {/* <SwiperCard /> */}
-      <SwiperEffect/>
+      <SwiperCard />
+    
+      
     </>
   )
 }
