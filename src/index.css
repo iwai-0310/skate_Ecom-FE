@@ -1,18 +1,19 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-#root{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    background-color: black; 
+  background-color: black;
 }
+
 .navbar {
-  display: flex;
+  display: flex ;
   
 }
 
@@ -29,7 +30,6 @@ header {
 
 }
 
-.nav-menu li{
-    color: white;
+.nav-menu li {
+  color: white;
 }
- */

@@ -10,7 +10,6 @@ import Footer from '../Footer'
 
 const Home = () => {
   return (
-    
     <>
     {/* <NeonCard/> */}
       {/* <HomeBanner/> */}
@@ -18,7 +17,7 @@ const Home = () => {
       {/* <SwiperCard/> */}
       <Footer/>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
