@@ -11,7 +11,7 @@ function App() {
     // <Home/>
     <div className="h-screen w-screen">
       <Header/>
-      <SwiperEffect/>       
+      {/* <SwiperEffect/>        */}
       <Footer/>
     </div>
   )
