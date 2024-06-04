@@ -13,17 +13,74 @@ import slide_image from "../../assets/neonCross.png"
 
 const SwiperEffect = () => {
   return (
-    <div className="container">
-        <div className="heading">
-            Slider Effect
-        </div>
-        <Swiper>
-            <SwiperSlide>
-                <img src={slide_image} alt="neon" />
-            </SwiperSlide>
-        </Swiper>
-    </div>
-  )
-}
+    <>
+      <Swiper
+        spaceBetween={50}
+        slidesPerView={4}
+        centeredSlides={true}
+        loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper "
+      >
+        <SwiperSlide>
+          {/* <SwiperCard /> */}
+          <div className="h-full  border-2 rounded-2xl ">
+          <NeonCard/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          {/* <SwiperCard /> */}
+          <div className="h-full  border-2 rounded-2xl ">
+          <NeonCard/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          {/* <SwiperCard /> */}
+          <div className="h-full  border-2 rounded-2xl ">
+          <NeonCard/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          {/* <SwiperCard /> */}
+          <div className="h-full  border-2 rounded-2xl ">
+          <NeonCard/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          {/* <SwiperCard /> */}
+          <div className="h-full  border-2 rounded-2xl ">
+          <NeonCard/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          {/* <SwiperCard /> */}
+          <div className="h-full  border-2 rounded-2xl ">
+          <NeonCard/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          {/* <SwiperCard /> */}
+          <div className="h-full  border-2 rounded-2xl ">
+          <NeonCard/>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          {/* <SwiperCard /> */}
+          <div className="h-full  border-2 rounded-2xl ">
+          <NeonCard/>
+          </div>
+        </SwiperSlide>
+      </Swiper>
+    </>
+  );
+};
 
-export default SwiperEffect
+export default SwiperEffect;
