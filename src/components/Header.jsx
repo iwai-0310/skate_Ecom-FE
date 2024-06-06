@@ -12,7 +12,7 @@ const Header = () => {
             Shop
         </li>
         <li>  
-            About  
+           Lets see if this works or not ! 
         </li>
         <li>
             Contact Us
