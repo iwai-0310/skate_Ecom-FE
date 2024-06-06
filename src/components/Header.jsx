@@ -12,7 +12,7 @@ const Header = () => {
             Shop
         </li>
         <li>  
-            About  
+            railworld
         </li>
         <li>
             Contact Us
