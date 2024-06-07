@@ -1,5 +1,7 @@
 import React from "react"
 import {Swiper, SwiperSlide} from "swiper"
+import React from 'react'
+import {Swiper,SwiperSlide} from 'swiper/react'
 
 import "swiper/css"
 import "swiper/css/effect-coverflow"
@@ -23,4 +25,4 @@ const SwiperEffect = () => {
   )
 }
 
-export default SwiperEffect
+export default SwiperEffect;

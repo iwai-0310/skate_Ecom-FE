@@ -7,7 +7,7 @@ import fb_icon from "../assets/facebook.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-violet-600     text-white py-10">
+    <footer className="bg-violet-600   text-white py-10">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
