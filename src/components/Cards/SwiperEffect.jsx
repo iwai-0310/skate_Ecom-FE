@@ -5,6 +5,7 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import NeonCard from '../NeonCard';
 
 import { EffectCoverflow,Pagination,Navigation } from 'swiper/modules';
 
@@ -23,8 +24,8 @@ const SwiperEffect = () => {
           clickable: true,
         }}
         navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper "
+        modules={[ Pagination, Navigation]}
+        className="mySwiper w-full h-1/2"
       >
         <SwiperSlide>
           {/* <SwiperCard /> */}
@@ -38,7 +39,7 @@ const SwiperEffect = () => {
           <NeonCard/>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        < SwiperSlide>
           {/* <SwiperCard /> */}
           <div className="h-full  border-2 rounded-2xl ">
           <NeonCard/>

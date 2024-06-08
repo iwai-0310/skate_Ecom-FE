@@ -6,6 +6,7 @@ import Footer from "./components/Footer"
 import SwiperEffect from "./components/Cards/SwiperEffect"
 import SkateImpact from "./components/SkateImpact"
 import About from "./components/About"
+// import SwiperEffect from "./components/Cards/SwiperEffect"
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
     // <Home/>
     <div className="h-screen w-screen">
       <Header/>
-      <About/>
-      
+      {/* <About/> */}
+      <SwiperEffect/>
       <Footer/>
     </div>
   )
